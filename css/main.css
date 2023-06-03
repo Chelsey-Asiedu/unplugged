@@ -137,6 +137,13 @@ textarea {
     margin: 50px 0;
   }
 
+  img{
+    width: 100%;
+  }
+
+  figure {
+    margin: 0;
+  }
   /*-------------------- Base Header - Footer Styles --------------------*/
 
   header {
@@ -156,6 +163,7 @@ textarea {
 
   header figure{
     margin: 0;
+    width: 60%;
   }
 
   header nav {
@@ -225,7 +233,11 @@ textarea {
   .hero-area {
     display: flex;
     justify-content: center;
-    align-items: center;
+    background-image: url('../img/unplugged-retreat.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
 
   }
 
@@ -273,6 +285,11 @@ textarea {
   .features {
     display: flex;
     justify-content: center;
+    background-image: url('../img/unplugged-retreat-features.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
   }
 
   .features h2{
@@ -312,6 +329,10 @@ textarea {
 
   .reviews h2{
     margin-bottom: 40px;
+  }
+
+  .reviews figure {
+    width: 100%;
   }
   /* ==========================================================================
    About Page
@@ -500,6 +521,10 @@ textarea {
   }
 
   /*Hero Area*/
+  .hero-area{
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -551,6 +576,7 @@ textarea {
     width: 75%;
     margin: 0;
   }
+
 
   /*Footer*/
   footer .content-wrapper{
@@ -662,6 +688,7 @@ textarea {
 
   /*Hero Area*/
   .hero-area h1 {
+    font-size: 3.75em;
     width: 80%;
   }
   
@@ -696,6 +723,9 @@ textarea {
     width: 42%;
   }
 
+  .reviews figure {
+    width: 50%;
+  }
   footer h4 {
     font-size: 1.875em;
   }
